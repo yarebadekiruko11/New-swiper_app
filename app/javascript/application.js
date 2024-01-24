@@ -4,8 +4,14 @@ import "controllers"
 // import "jquery"
 import "./script.js"
 // import "./add_jquery"
-// import jquery from "jquery"
-// window.$ = jquery
+import jquery from "jquery"
+window.$ = jquery
 
 //= require jquery
 //= require jquery_ujs
+
+$(document).ready(function () {
+  $('.jquery').on('click', function(){
+    $(this).css('color','red');
+  });
+});

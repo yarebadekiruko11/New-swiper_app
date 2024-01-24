@@ -7,4 +7,4 @@ pin "@hotwired/stimulus-loading", to: "stimulus-loading.js"
 pin_all_from "app/javascript/controllers", under: "controllers"
 
 pin_all_from 'app/javascript'
-pin "jquery" # @3.7.1
+pin "jquery", to: "https://ga.jspm.io/npm:jquery@3.6.3/dist/jquery.js"
