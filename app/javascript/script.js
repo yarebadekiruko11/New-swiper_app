@@ -1,4 +1,5 @@
 // Swiperのオプションを定数化
+window.addEventListener('DOMContentLoaded', function() {
 const opt = {
   loop: true,
   pagination: {
@@ -14,4 +15,5 @@ const opt = {
 // Swiperを実行(初期化)
 $(document).on('turbolinks:load', function() {
     let swiper = new Swiper ('.swiper',opt);
+});
 });

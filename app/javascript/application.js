@@ -7,3 +7,7 @@ import "./script.js";
 import jquery from "jquery";
 window.$ = jquery;
 
+// import Swiper JS
+import Swiper from 'swiper';
+// import Swiper styles
+import 'swiper/css';
